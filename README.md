@@ -1,4 +1,4 @@
 kfCKEditor
 ==========
 
-Please read [/kfCKEditor/README.md](/kfCKEditor/README.md)
+Please read [/CKEditor/README.md](/CKEditor/README.md)
