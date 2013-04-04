@@ -1,4 +1,4 @@
 kfCKEditor
 ==========
 
-CKEditor for the kitFramework
+Please read [/kfCKEditor/README.md](/kfCKEditor/README.md)
