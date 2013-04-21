@@ -1,4 +1,4 @@
 kfCKEditor
 ==========
 
-Please read [/CKEditor/README.md](/CKEditor/README.md)
+The CKEditor 4.1 for Usage with the kitFramework.
