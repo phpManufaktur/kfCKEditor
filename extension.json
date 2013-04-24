@@ -1,0 +1,37 @@
+{
+  "name":"CKEditor",
+  "guid":"0D6B9DFF-CDFF-4283-AB55-C128CB5BE40E",
+  "category":"extension",
+  "group":"phpManufaktur",
+  "vendor":"CKSource - Frederico Knabben",
+  "type":"library",
+  "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
+  "namespace": "phpManufaktur\\CKEditor",
+  "release": {
+    "number" : "0.10",
+    "date" : "2013-04-23"
+  },
+  "description": {
+    "en": {
+      "title":"CKEditor 4",
+      "short": "CKEditor 4 implementation for the kitFramework",
+      "long": "CKEditor 4 implementation for the kitFramework",
+      "url": "http:\/\/ckeditor.com"
+    }
+  },
+  "require": {
+    "framework": {
+      "release": "0.17"
+    }
+  },
+  "license":"Open Source License",
+  "download": {
+    "availability":"public",
+    "agreement":"free",
+    "github":{
+      "organization":"phpManufaktur",
+      "repository":"kfCKEditor"
+    },
+    "url":"https:\/\/github.com\/phpManufaktur\/kfCKEditor"
+  }
+}
