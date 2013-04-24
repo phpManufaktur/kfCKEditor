@@ -17,7 +17,7 @@ $app['twig'] = $app->share($app->extend('twig', function  ($twig, $app) {
 
         $framework_url = FRAMEWORK_URL;
         $image_url = FRAMEWORK_URL.'/admin/mediabrowser/cke';
-        $config_url = ($config == 'default') ? MANUFAKTUR_URL.'/CKEditor/ckeditor_config.js' : $config;
+        $config_url = ($config == 'default') ? MANUFAKTUR_URL.'/CKEditor/ckeditor.config.js' : $config;
 
         return <<<EOD
         <textarea class="ckeditor" id="$id" name="$name">$content</textarea>
