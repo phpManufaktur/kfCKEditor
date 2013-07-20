@@ -8,8 +8,8 @@
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
   "namespace": "phpManufaktur\\CKEditor",
   "release": {
-    "number" : "0.10",
-    "date" : "2013-04-23"
+    "number" : "0.11",
+    "date" : "2013-07-20"
   },
   "description": {
     "en": {
