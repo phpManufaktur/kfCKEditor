@@ -6,22 +6,23 @@
   "vendor":"CKSource - Frederico Knabben",
   "type":"library",
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
-  "namespace": "phpManufaktur\\CKEditor",
+  "namespace":"phpManufaktur\\CKEditor",
   "release": {
-    "number" : "0.14",
-    "date" : "2013-09-17"
+    "number":"0.15",
+    "date":"2013-09-22",
+    "status":"stable"
   },
   "description": {
     "en": {
       "title":"CKEditor 4",
-      "short": "CKEditor 4 implementation for the kitFramework",
-      "long": "CKEditor 4 implementation for the kitFramework",
-      "url": "http:\/\/ckeditor.com"
+      "short":"CKEditor 4 implementation for the kitFramework",
+      "long":"CKEditor 4 implementation for the kitFramework",
+      "url":"http:\/\/ckeditor.com"
     }
   },
   "require": {
     "framework": {
-      "release": "0.17"
+      "release":"0.26"
     }
   },
   "license":"Open Source License",
