@@ -6,6 +6,11 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.17** - 2013-10-18
+
+* added plugin `insertpre`
+* changed default formatting of editor content
+
 **0.16** - 2013-09-23
 
 * changed description file `extension.json`
