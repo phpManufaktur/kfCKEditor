@@ -3,13 +3,16 @@
   "guid":"0D6B9DFF-CDFF-4283-AB55-C128CB5BE40E",
   "category":"extension",
   "group":"phpManufaktur",
-  "vendor":"CKSource - Frederico Knabben",
+  "vendor":{
+      "name":"CKSource - Frederico Knabben",
+      "url":"http:\/\/ckeditor.com"
+  },
   "type":"library",
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
   "namespace":"phpManufaktur\\CKEditor",
   "release": {
-    "number":"0.17",
-    "date":"2013-10-18",
+    "number":"0.18",
+    "date":"2013-11-04",
     "status":"stable"
   },
   "description": {
