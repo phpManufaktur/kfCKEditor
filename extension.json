@@ -35,7 +35,10 @@
         }
     }
   },
-  "license":"Open Source License",
+  "license": {
+    "name":"Open Source License",
+    "url":"https:\/\/github.com\/phpManufaktur\/kfCKEditor\/raw\/master\/LICENSE.md"
+  },
   "download": {
     "availability":"public",
     "agreement":"free",
