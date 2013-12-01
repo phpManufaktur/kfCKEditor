@@ -11,8 +11,8 @@
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
   "namespace":"phpManufaktur\\CKEditor",
   "release": {
-    "number":"0.19",
-    "date":"2013-11-09",
+    "number":"0.20",
+    "date":"2013-12-01",
     "status":"stable"
   },
   "description": {
@@ -21,6 +21,12 @@
       "short":"CKEditor 4 implementation for the kitFramework",
       "long":"CKEditor 4 implementation for the kitFramework",
       "url":"http:\/\/ckeditor.com"
+    },
+    "en":{
+        "title":"CKEditor 4",
+        "short":"Einfache Einbindung in Erweiterungen",
+        "long":"Der bewährte CKEditor wird im kitFramework von unterschiedlichen Erweiterungen verwendet und lässt sich sehr einfach integrieren.",
+        "url":"http:\/\/ckeditor.com"
     }
   },
   "require": {
