@@ -6,6 +6,13 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.21** - 2014-01-13
+
+* updated CKEditor to 4.3.1 (full)
+* added plugin `cmspagelink` (link to CMS pages)
+* added plugin `flexcontentlink` (link to flexContent articles)
+* added plugin `hashtaglink` (link to flexContent hashtags) 
+
 **0.20** - 2013-12-01
 
 * changed descriptions
