@@ -11,8 +11,8 @@
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
   "namespace":"phpManufaktur\\CKEditor",
   "release": {
-    "number":"0.21",
-    "date":"2013-01-13",
+    "number":"0.22",
+    "date":"2013-01-16",
     "status":"stable"
   },
   "description": {
