@@ -39,7 +39,7 @@ class flexContentLink
                 else {
                     $url = $link['redirect_url'];
                 }
-                $xml .= '<item id="'.$url.'" value="'.$link['title'].' --> '.$link['permalink'].'" />';
+                $xml .= '<item id="'.$url.'" value="'.rawurlencode($link['title']).'" />';
             }
         }
         $xml .= '</pageslist></data>';

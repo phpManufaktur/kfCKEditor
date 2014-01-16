@@ -32,8 +32,8 @@ CKEDITOR.dialog.add( 'cmspagelinkDlg', function( editor ) {
     var pages = new Array();
     for ( var i = 0 ; i < itemNodes.length ; i++ ) {
         var node = itemNodes[i];
-        items[i] = new Array( node.getAttribute("value"), node.getAttribute("id") );
-        pages[node.getAttribute("id")] = node.getAttribute("value");
+        items[i] = new Array( decodeURIComponent(node.getAttribute("value"), node.getAttribute("id")) );
+        pages[node.getAttribute("id")] = decodeURIComponent(node.getAttribute("value"));
     }
 
     return {
