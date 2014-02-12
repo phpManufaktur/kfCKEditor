@@ -19,6 +19,12 @@ use phpManufaktur\flexContent\Control\Command\Tools;
 class flexContentLink
 {
 
+    /**
+     * Controller return a XML list with a ordered flexContent link list
+     *
+     * @param Application $app
+     * @return \Symfony\Component\HttpFoundation\Response
+     */
     public function ControllerDialog(Application $app)
     {
         $language = $app['session']->get('FLEXCONTENT_EDIT_CONTENT_LANGUAGE', null);
@@ -39,7 +45,10 @@ class flexContentLink
                 else {
                     $url = $link['redirect_url'];
                 }
-                $xml .= '<item id="'.$url.'" value="'.rawurlencode($link['title']).'" />';
+                $xml .= sprintf('<item id="%s" value="[%04d - %s] %s" />',
+                    $url, $link['content_id'],
+                    date($app['translator']->trans('DATE_FORMAT', array(), 'messages', strtolower($language)), strtotime($link['publish_from'])),
+                    rawurlencode($link['title']));
             }
         }
         $xml .= '</pageslist></data>';
