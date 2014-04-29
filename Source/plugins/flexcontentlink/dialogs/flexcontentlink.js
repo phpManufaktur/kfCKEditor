@@ -67,8 +67,8 @@ CKEDITOR.dialog.add( 'flexcontentlinkDlg', function( editor ) {
             var page_id   = dialog.getValueOf( 'tab1', 'pageslist' );
 
             var title = pages[page_id];
-            var separator = title.indexOf(' --> ');
-            title = title.substr(0, separator);
+            var separator = title.indexOf('] ')+2;
+            title = title.substr(separator);
 
             if (selection === null) {
                 var html  = editor.getSelection().getSelectedText();

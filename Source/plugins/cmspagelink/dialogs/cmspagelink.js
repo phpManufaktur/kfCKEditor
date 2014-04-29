@@ -33,7 +33,7 @@ CKEDITOR.dialog.add( 'cmspagelinkDlg', function( editor ) {
     for ( var i = 0 ; i < itemNodes.length ; i++ ) {
         var node = itemNodes[i];
         items[i] = new Array( decodeURIComponent(node.getAttribute("value"), node.getAttribute("id")) );
-        pages[node.getAttribute("id")] = decodeURIComponent(node.getAttribute("value"));
+        pages[node.getAttribute("id")] = node.getAttribute("id"); //decodeURIComponent(node.getAttribute("value"));
     }
 
     return {
@@ -65,9 +65,11 @@ CKEDITOR.dialog.add( 'cmspagelinkDlg', function( editor ) {
             var selection = editor.getSelection().getSelectedElement();
             var page_id   = dialog.getValueOf( 'tab1', 'pageslist' );
 
+
             var title = pages[page_id];
-            var separator = title.indexOf(' --> ');
-            title = title.substr(0, separator);
+            //alert(title);
+            //var separator = title.indexOf('] ')+2;
+            //title = title.substr(separator);
 
             if ( selection === null ) {
                 var html  = editor.getSelection().getSelectedText();
@@ -79,7 +81,7 @@ CKEDITOR.dialog.add( 'cmspagelinkDlg', function( editor ) {
             var css_class = dialog.getValueOf('tab1', 'pagelinkclass');
             var target = dialog.getValueOf('tab1', 'target');
 
-            var insert    = '<a href="'+page_id+'" title="'+title+'"'+(css_class===''?'':' class="'+css_class+'"')+(target === '' ? '' : ' target="'+target+'"')+'></a>';
+            var insert    = '<a href="'+page_id+'"'+(css_class===''?'':' class="'+css_class+'"')+(target === '' ? '' : ' target="'+target+'"')+'></a>';
             var element   = CKEDITOR.dom.element.createFromHtml(insert);
             selection.appendTo(element);
             editor.insertElement(element);

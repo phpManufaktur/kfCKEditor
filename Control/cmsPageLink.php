@@ -27,12 +27,8 @@ class cmsPageLink
 
         $xml = '<data><pageslist>';
         foreach($linklist as $link) {
-            //$xml .= '<item id="'.CMS_URL.$link['complete_link'].'" value="'.rawurlencode($link['page_title']).'" />';
-            $xml .= sprintf('<item id="%s" value="[%04d] %s" />',
-                CMS_URL.$link['complete_link'],
-                $link['page_id'],
-                $link['complete_link']
-                );
+            $url = CMS_URL.$link['complete_link'];
+            $xml .= sprintf('<item id="%s" value="%s" />', $url, $url);
         }
         $xml .= '</pageslist></data>';
         return new Response($xml, 200, array('Content-Type' => 'application/xml'));
