@@ -6,6 +6,10 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.24** - 2014-04-29
+
+* fixed #4 (flexContent issue) - CMS page link
+
 **0.23** - 2014-02-12
 
 * fixed a problem with CMS page link and flexContent Article link
