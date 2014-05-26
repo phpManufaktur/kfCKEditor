@@ -33,7 +33,7 @@ class hashtagLink
         if (is_array($linklist)) {
             foreach ($linklist as $link) {
                 $permalink_base = $Tools->getPermalinkBaseURL($link['language']);
-                $url = $permalink_base.'/tag/'.$link['tag_permalink'];
+                $url = $permalink_base.'/buzzword/'.$link['tag_permalink'];
                 $xml .= '<item id="'.$url.'" value="#'.$link['tag_name'].'" />';
             }
         }
