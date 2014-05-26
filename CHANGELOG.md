@@ -6,6 +6,10 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.25** - 2014-05-27
+
+* flexContent Hash-tags use now /content/buzzword as target 
+
 **0.24** - 2014-04-29
 
 * fixed #4 (flexContent issue) - CMS page link
