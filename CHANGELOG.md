@@ -6,6 +6,11 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.26** - 2014-06-04
+
+* updated CKEditor to 4.4.1 (full)
+* changed user roles and check for authentication
+
 **0.25** - 2014-05-27
 
 * flexContent Hash-tags use now /content/buzzword as target 
