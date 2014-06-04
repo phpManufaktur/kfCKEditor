@@ -17,7 +17,7 @@ $app['twig'] = $app->share($app->extend('twig', function ($twig, $app) {
         //global $app;
 
         $framework_url = FRAMEWORK_URL;
-        $image_url = FRAMEWORK_URL.'/admin/mediabrowser/cke';
+        $image_url = FRAMEWORK_URL.'/mediabrowser/cke';
         $config_url = ($config == 'default') ? MANUFAKTUR_URL.'/CKEditor/ckeditor.config.js' : $config;
 
         $extra_plugins = array('ajax','xml','cmspagelink');
