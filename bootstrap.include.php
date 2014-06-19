@@ -13,11 +13,18 @@
 // add the function CKEditor to Twig
 $app['twig'] = $app->share($app->extend('twig', function ($twig, $app) {
 
-    $twig->addFunction(new Twig_SimpleFunction('CKEditor', function ($id, $name, $content, $width='100%', $height='200px', $config='default') use ($app) {
+    $twig->addFunction(new Twig_SimpleFunction('CKEditor', function(
+        $id, $name, $content, $width='100%', $height='200px', $config='default', $directory='/media/public/', $directory_start='/media/public') use ($app) {
         //global $app;
 
         $framework_url = FRAMEWORK_URL;
-        $image_url = FRAMEWORK_URL.'/mediabrowser/cke';
+        if ($app['account']->isAuthenticated()) {
+            $image_url = FRAMEWORK_URL."/mediabrowser/cke?directory=$directory&directory_start=$directory_start";
+        }
+        else {
+            // user is not authenticated, disable access to the mediabrowser!
+            $image_url = '';
+        }
         $config_url = ($config == 'default') ? MANUFAKTUR_URL.'/CKEditor/ckeditor.config.js' : $config;
 
         $extra_plugins = array('ajax','xml','cmspagelink');
