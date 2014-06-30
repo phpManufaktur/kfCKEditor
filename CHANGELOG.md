@@ -6,6 +6,10 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.28** - 2014-06-30
+
+* fixed release status in `extension.json`
+
 **0.27** - 2014-06-30
 
 * extend CKEditor function call for Twig to enable setting of the /MEDIA directory. The function now also check if the user is authenticated and show the MediaBrowser only in this case - otherwise enable URL Dialog for images
