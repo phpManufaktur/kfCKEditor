@@ -6,6 +6,10 @@ MIT License (MIT) - <http://www.opensource.org/licenses/MIT>
 
 kitFramework - <https://kit2.phpmanufaktur.de>
 
+**0.29** - 2014-09-08
+
+* updated CKEditor to 4.4.4 (full)
+
 **0.28** - 2014-06-30
 
 * fixed release status in `extension.json`
