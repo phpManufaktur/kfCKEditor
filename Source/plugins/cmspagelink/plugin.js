@@ -2,7 +2,7 @@
  * kitFramework::CKEditor
  *
  * @author Team phpManufaktur <team@phpmanufaktur.de>
- * @link https://addons.phpmanufaktur.de/flexContent
+ * @link https://kit2.phpmanufaktur.de
  * @copyright 2014 Ralf Hertsch <ralf.hertsch@phpmanufaktur.de>
  * @license MIT License (MIT) http://www.opensource.org/licenses/MIT
  */
