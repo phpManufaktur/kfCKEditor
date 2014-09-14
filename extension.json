@@ -11,8 +11,8 @@
   "path":"\/extension\/phpmanufaktur\/phpManufaktur\/CKEditor",
   "namespace":"phpManufaktur\\CKEditor",
   "release": {
-    "number":"0.29",
-    "date":"2014-09-08",
+    "number":"0.30",
+    "date":"2014-09-14",
     "status":"release",
     "changelog":"https:\/\/github.com\/phpManufaktur\/kfCKEditor\/blob\/master\/CHANGELOG.md"
   },
@@ -37,7 +37,7 @@
     "extension":{
         "phpmanufaktur":{
             "basic":{
-                "release":"1.0.10"
+                "release":"1.0.12"
             }
         }
     }
